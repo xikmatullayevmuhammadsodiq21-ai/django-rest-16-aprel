@@ -23,7 +23,3 @@ class Product(models.Model):
         return f"{self.tittle}"
 
 
-
-
-
-

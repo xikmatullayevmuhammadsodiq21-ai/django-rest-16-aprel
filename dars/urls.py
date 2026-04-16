@@ -9,5 +9,5 @@ r.register(r"product", ProductViewset, basename="product")
 
 
 urlpatterns = [
-    path('', include("r.urls")),
+    path('', include(r.urls)),
 ]
